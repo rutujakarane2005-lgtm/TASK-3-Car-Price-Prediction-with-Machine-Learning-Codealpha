@@ -1,52 +1,128 @@
-# Car Price Prediction using Machine Learning
 
-## Project Description
-This project predicts the selling price of a used car using Machine Learning. The model is trained using features such as year, present price, kilometers driven, fuel type, transmission, and owner information.
+# 🚗 Car Price Prediction using Machine Learning
 
-## Objective
-To build a regression model that predicts the selling price of a car based on its features.
+## 📌 Project Overview
 
-## Dataset
-The dataset contains information about different cars, including:
+This project predicts the selling price of a used car using Machine Learning. The model is trained on historical car data and estimates the selling price based on various vehicle features.
+
+The project also includes an interactive **Streamlit web application** where users can enter car details and instantly predict the estimated selling price.
+
+---
+
+## 🎯 Objective
+
+To build a Machine Learning regression model that accurately predicts the selling price of a used car based on its features.
+
+---
+
+## 📂 Dataset
+
+**Dataset Used:** Car Price Dataset
+
+### Features:
+
 - Car Name
 - Year
 - Present Price
-- Selling Price
-- Kilometers Driven
+- Driven Kilometers
 - Fuel Type
 - Selling Type
 - Transmission
 - Owner
 
+### Target Variable:
+
+- Selling Price
+
+---
+
 ## 🛠 Technologies Used
+
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Scikit-learn
+- Streamlit
 - Jupyter Notebook
 
-## Machine Learning Algorithm
-- Linear Regression
+---
 
-## Project Workflow
-1. Import Libraries
-2. Load Dataset
-3. Data Preprocessing
-4. Feature Engineering
-5. Train-Test Split
-6. Train Linear Regression Model
-7. Predict Selling Prices
-8. Evaluate Model Performance
+## 🔄 Project Workflow
 
-## Model Performance
-- Mean Absolute Error (MAE): 1.22
-- Mean Squared Error (MSE): 3.48
-- R² Score: 0.85
+- Data Loading
+- Data Exploration
+- Data Preprocessing
+- Handling Categorical Features
+- Train-Test Split
+- Model Training
+- Model Evaluation
+- Car Price Prediction
+- Streamlit Web Application
 
-## Files Included
-- Car_Price_Prediction.ipynb
-- Car_Price.csv
+---
 
-##  Author
-Rutuja Karane
+## 🤖 Machine Learning Model Used
+
+### Linear Regression
+
+The Linear Regression model was trained to predict the selling price of a car using its features such as year, present price, fuel type, transmission, and owner details.
+
+---
+
+## 📊 Model Evaluation
+
+The model was evaluated using:
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- R² Score
+
+---
+
+## 🏆 Model Performance
+
+The Linear Regression model achieved the following performance:
+
+- **Mean Absolute Error (MAE): 1.22**
+- **Mean Squared Error (MSE): 3.48**
+- **R² Score: 0.85**
+
+These results indicate that the model provides good predictions for car selling prices.
+
+---
+
+## 🌐 Streamlit Application
+
+The project includes an interactive Streamlit application where users can:
+
+- Enter car details
+- Predict the estimated selling price instantly
+- View results through a simple and user-friendly interface
+
+---
+
+## 📁 Project Files
+
+- `Car_Price_Prediction.ipynb`
+- `app.py`
+- `Car_Price.csv`
+- `requirements.txt`
+- `README.md`
+
+---
+
+## 🚀 Future Improvements
+
+- Train and compare multiple regression algorithms
+- Improve prediction accuracy using feature engineering
+- Enhance the Streamlit interface
+- Deploy the application online using Streamlit Community Cloud
+
+---
+
+## 👩‍💻 Author
+
+**Rutuja Karane**
+
+**Data Science Intern – CodeAlpha**
